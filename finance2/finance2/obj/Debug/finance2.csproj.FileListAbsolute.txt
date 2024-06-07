@@ -1,0 +1,15 @@
+C:\Users\dlvth\source\repos\finance2\finance2\bin\Debug\finance2.exe.config
+C:\Users\dlvth\source\repos\finance2\finance2\bin\Debug\finance2.exe
+C:\Users\dlvth\source\repos\finance2\finance2\bin\Debug\finance2.pdb
+C:\Users\dlvth\source\repos\finance2\finance2\obj\Debug\finance2.csproj.AssemblyReference.cache
+C:\Users\dlvth\source\repos\finance2\finance2\obj\Debug\MainWindow.g.cs
+C:\Users\dlvth\source\repos\finance2\finance2\obj\Debug\App.g.cs
+C:\Users\dlvth\source\repos\finance2\finance2\obj\Debug\finance2_MarkupCompile.cache
+C:\Users\dlvth\source\repos\finance2\finance2\obj\Debug\finance2_MarkupCompile.lref
+C:\Users\dlvth\source\repos\finance2\finance2\obj\Debug\MainWindow.baml
+C:\Users\dlvth\source\repos\finance2\finance2\obj\Debug\finance2.g.resources
+C:\Users\dlvth\source\repos\finance2\finance2\obj\Debug\finance2.Properties.Resources.resources
+C:\Users\dlvth\source\repos\finance2\finance2\obj\Debug\finance2.csproj.GenerateResource.cache
+C:\Users\dlvth\source\repos\finance2\finance2\obj\Debug\finance2.csproj.CoreCompileInputs.cache
+C:\Users\dlvth\source\repos\finance2\finance2\obj\Debug\finance2.exe
+C:\Users\dlvth\source\repos\finance2\finance2\obj\Debug\finance2.pdb

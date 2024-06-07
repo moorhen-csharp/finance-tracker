@@ -1,0 +1,31 @@
+﻿<Window x:Class="finance2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:finance2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <TextBox Name="txtDescription"  Margin="10"/>
+            <TextBox Name="txtAmount"  Margin="10"/>
+            <ComboBox Name="cbWallets" Margin="10">
+                <ComboBoxItem Content="Основной"/>
+                <ComboBoxItem Content="Сбережения"/>
+                <ComboBoxItem Content="Другой"/>
+            </ComboBox>
+            <Button Content="Добавить" Click="AddTransaction_Click" Margin="10"/>
+            <ListView x:Name="lvTransactions">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Описание" DisplayMemberBinding="{Binding Description}"/>
+                        <GridViewColumn Header="Сумма" DisplayMemberBinding="{Binding Amount}"/>
+                        <GridViewColumn Header="Кошелек" DisplayMemberBinding="{Binding Wallet}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Label Name="lblTotalBalance" Content="Общая сумма: 0 руб." Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Window>
